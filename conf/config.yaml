@@ -1,0 +1,13 @@
+meta:
+  cluster:
+    kind: mongo
+    mongo: 
+      url: mongodb://user:password@xxx.xxx.xxx/meta?connectTimeoutMS=2000
+      database: meta
+  auth:
+    kind: mongo
+    mongo:
+      url: mongodb://user:password@xxx.xxx.xxx/auth?connectTimeoutMS=2000
+      database: auth
+connection:
+  aliveTimeout: 60
